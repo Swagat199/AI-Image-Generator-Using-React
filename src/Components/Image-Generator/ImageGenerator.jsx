@@ -20,7 +20,7 @@ function ImageGenerator() {
   {
   method: 'POST',
   headers: {
-    'x-api-key': 'YOUR_API_KEY_HERE',
+    'x-api-key': import.meta.env.VITE_CLIPDROP_API_KEY,
     'Content-Type': 'application/json'
     
   },
